@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="app_name">MyFin</string>-->
+    <string name="next">Далее</string>
+    <string name="previous">Назад</string>
+
+    <string name="preferences_theme_option_key_light" translatable="false">preferences_theme_option_light</string>
+    <string name="preferences_theme_option_key_dark" translatable="false">preferences_theme_option_dark</string>
+    <string name="preferences_theme_option_key_system" translatable="false">preferences_theme_option_system</string>
+    <string name="preferences_key_theme" translatable="false">preferences_key_theme</string>
+    <string name="preferences_key_api_url" translatable="false">preferences_key_api_url</string>
+
+    <string name="login_btn_label">Войти</string>
+    <string name="login_username_label">Логин</string>
+    <string name="login_password_label">Пароль</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Логин</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="action_sign_in_short">Войти</string>
+
+
+    <string name="dashboard_label">Дашборд</string>
+    <string name="navigation_drawer_open">Открыть</string>
+    <string name="navigation_drawer_close">Закрыть</string>
+    <string name="generic_exit">Выйти</string>
+    <string name="generic_yes">Да</string>
+    <string name="generic_go_back">Назад</string>
+    <string name="confirmation_logout_message">Вы уверены, что хотите выйти?</string>
+    <string name="generic_patrimony">Баланс</string>
+    <string name="generic_investment">Инвестиции</string>
+    <string name="generic_passive">Займы</string>
+    <string name="generic_operating_funds_shorten">Счета</string>
+    <string name="generic_cancel">Отмена</string>
+    <string name="generic_authentication">Авторизация</string>
+    <string name="generic_last_update">Последнее обновление</string>
+    <string name="generic_open">Открыт</string>
+    <string name="generic_closed">Закрыт</string>
+
+    <string name="biometric_auth_prompt_description">Подтвердите личность, чтобы войти</string>
+    <string name="biometric_auth_prompt_subtitle">Биометрия</string>
+    <string name="biometric_auth_prompt_title">@string/generic_authentication</string>
+    <string name="account_type_external_label">Внешний аккаунт</string>
+    <string name="no_category_label">Нет категорий</string>
+    <string name="no_entity_label">Нет записей</string>
+    <string name="no_description_label">Нет описания</string>
+
+
+    <!-- Main Menu -->
+    <string name="main_menu_dashboard">Дашборд</string>
+    <string name="main_menu_transactions">Транзакции</string>
+    <string name="main_menu_accounts">Аккаунты</string>
+    <string name="main_menu_categories">Категории</string>
+    <string name="main_menu_entities">Записи</string>
+    <string name="main_menu_rules">Правила</string>
+    <string name="main_menu_budgets">Бюджеты</string>
+    <string name="main_menu_investments">Инвестиции</string>
+    <string name="main_menu_stats">Статистика</string>
+    <string name="main_menu_group_administration">Управление</string>
+
+    <!-- Labels -->
+    <string name="transactions_label">Транзакции</string>
+    <string name="transaction_details_label">Детали транзакции</string>
+    <string name="budgets_label">Бюджеты</string>
+    <string name="budget_details_label">Детали бюджета</string>
+    <string name="accounts_label">Аккаунты</string>
+    <string name="account_checking_label">Checking account</string>
+    <string name="account_savings_label">Savings account</string>
+    <string name="account_investing_label">Инвестиции</string>
+    <string name="account_credit_label">Кредит</string>
+    <string name="account_meal_card_label">Продуктовые карты</string>
+    <string name="account_wallet_label">Кошелек</string>
+    <string name="account_other_label">Другое</string>
+
+    <!-- Preferences -->
+    <string name="preferences_theme_option_dark_theme">Темная тема</string>
+    <string name="preferences_theme_option_light_theme">Светлая тема</string>
+    <string name="preferences_theme_option_system_default">Авто (Система)</string>
+    <string name="generic_appearance">Оформление</string>Выберите тему для приложения</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_monthly_overview_chart_planned_amount_label">/%s</string>
+    <string name="generic_settings">Настройки</string>
+    <string name="preferences_theme_title">Тема</string>
+
+    <!-- Transactions -->
+    <string name="transactions_list_item_date_format">%s %s %s</string>
+    <string name="add_transaction">Добавить транзакцию</string>
+    <string name="edit_transaction">Редактировать трвнзакцию</string>
+    <string name="transaction_date">Дата</string>
+    <string name="confirmation_transaction_delete">Вы уверены, что хотите удалить транзакцию?</string>
+
+    <!-- Budgets -->
+    <string name="budget_details_category_percent_of_planned_amount">%.2f%% из %s</string>
+
+    <!-- Misc -->
+    <string name="generic_income">Доход</string>
+    <string name="generic_expenses">Расход</string>
+    <string name="generic_transfer">Перевод</string>
+    <string name="account_from_label">Аккаунт Отправителя</string>
+    <string name="account_to_label">Аккаунт Получателя</string>
+    <string name="category_label">Категория</string>
+    <string name="entity_label">Запись</string>
+    <string name="description_label">Описание</string>
+    <string name="account_status_active">Активный</string>
+    <string name="account_status_inactive">Неактивный</string>
+    <string name="generic_no_data_to_display_label">Нет данных</string>
+    <string name="current_expense">Текущие расходы</string>
+    <string name="current_income">Текущие доходы</string>
+    <string name="planned_expense">Ожидаемые расходы</string>
+    <string name="planned_income">Ожидаемые доходы</string>
+    <string name="generic_save">Сохранить</string>
+    <string name="generic_essential">Важный</string>
+    <string name="generic_amount">Количество</string>
+    <string name="generic_edit">Редактировать</string>
+    <string name="transaction_added_success_message">Транзакция успешно добавлена!</string>
+    <string name="transaction_updated_success_message">Транзакция успешно обновлена!</string>
+    <string name="transaction_deleted_success_message">Транзакция успешно удалена!</string>
+    <string name="keep_session_label">Keep Session</string>
+    <string name="generic_data">Данные</string>
+    <string name="preferences_api_base_url_title">Основной URL API</string>
+    <string name="monthly_overview">Ежемесячный обзор</string>
+    <string name="monthly_distribution">Monthly distribution</string>
+    <string name="latest_transactions">Последние транзакции</string>
+    <string name="all_fem">Все</string>
+    <string name="operating_funds">Операционные счета</string>
+    <string name="debts">Займы</string>
+    <string name="investments">Инвестиции</string>
+    <string name="others_fem">Прочее</string>
+    <string name="dashboard_monthly_overview_amount_left">осталось ежемесячных расходов</string>
+    <string name="dashboard_monthly_overview_of_spent_label">из % потрачено</string>
+</resources>
